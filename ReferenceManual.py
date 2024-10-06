@@ -1,5 +1,5 @@
-from ColorCodecopy import get_color_from_pair_number
-from ColorCodecopy import MAJOR_COLORS_LIST, MINOR_COLORS_LIST
+from ColorCode import get_color_from_pair_number
+from ColorCode import MAJOR_COLORS_LIST, MINOR_COLORS_LIST
 
 def print_color_code():
     number_of_combinations = len(MAJOR_COLORS_LIST) * len(MINOR_COLORS_LIST)
